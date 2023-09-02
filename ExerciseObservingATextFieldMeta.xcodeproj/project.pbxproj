@@ -11,6 +11,7 @@
 		748868B32AA3D11E00F45F77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748868B22AA3D11E00F45F77 /* ContentView.swift */; };
 		748868B52AA3D11F00F45F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748868B42AA3D11F00F45F77 /* Assets.xcassets */; };
 		748868B82AA3D11F00F45F77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748868B72AA3D11F00F45F77 /* Preview Assets.xcassets */; };
+		748868BF2AA3D1FC00F45F77 /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748868BE2AA3D1FC00F45F77 /* ReservationForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		748868B22AA3D11E00F45F77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		748868B42AA3D11F00F45F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748868B72AA3D11F00F45F77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		748868BE2AA3D1FC00F45F77 /* ReservationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				748868B02AA3D11E00F45F77 /* ExerciseObservingATextFieldMetaApp.swift */,
 				748868B22AA3D11E00F45F77 /* ContentView.swift */,
+				748868BE2AA3D1FC00F45F77 /* ReservationForm.swift */,
 				748868B42AA3D11F00F45F77 /* Assets.xcassets */,
 				748868B62AA3D11F00F45F77 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				748868B32AA3D11E00F45F77 /* ContentView.swift in Sources */,
 				748868B12AA3D11E00F45F77 /* ExerciseObservingATextFieldMetaApp.swift in Sources */,
+				748868BF2AA3D1FC00F45F77 /* ReservationForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
