@@ -13,10 +13,15 @@ struct ReservationForm: View {
     
     var body: some View {
         Form {
-            TextField("Type Your Name", text: $customerName)
+            TextField("Type Your Name", text: $customerName, onEditingChanged: { status in
+                print(status)
+            })
                 .onChange(of: customerName, perform: { change in
                     print(change)
                 })
+                .onSubmit {
+                    print("Submitted name!")
+                }
         }
     }
 }
